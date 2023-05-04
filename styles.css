@@ -1,0 +1,386 @@
+/* 
+
+AVAILABLE FONTS 
+
+font-family: 'Press Start 2P', cursive;
+
+font-family: 'Averia Libre', cursive;
+font-family: 'Taviraj', serif;
+
+font-family: 'Averia Sans Libre', cursive;
+font-family: 'Varela', sans-serif;
+
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Hind Vadodara', sans-serif;
+
+see "font-pics" folder for images of the pairs
+
+*/
+
+/* ALL */
+
+/* the asterisk (*) targets all the code */
+/* used this to clear out the browser's automatic formatting that leaves spaces on the sides */
+
+/* * {
+    margin: 0; 
+    padding: 0; 
+} */
+
+/* NAV */
+
+.navbar-brand,
+.nav-item {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+/* when resume link is active for download */ 
+
+#resume {
+    color: #00FF41;
+}
+
+/* when resume link is disabled */ 
+
+/* #resume {
+    color: #4c4c54;
+} */
+
+/* PAGES */
+
+/* .about-page,
+.projects-page,
+.contact-page {
+    height: 100vh;
+    background-color:  #0D0208;
+} */
+
+h1 {
+    font-family: 'Cabin Sketch', sans-serif;
+    color: #FFFDFD;
+    margin-left: 20px; 
+}
+
+
+/* ABOUT PAGE */
+
+/* container for the paragraph, spans, and image in the "about me" section*/
+
+.about-page {
+    height: 100vh;
+    background-color: #0D0208;
+}
+
+.about-page p {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 20px;
+    color: #FFFDFD;
+}
+
+.about-page p span {
+    color: #00FF41;
+    /* text-shadow: 1px 0px 10px #003b00;  */
+}
+
+/* image in the "about me" section */
+
+.move-about {
+    margin-top: 20px;
+}
+
+.about-img-src-txt {
+    font-family: 'Hind Vadodara', cursive;
+    font-size: 0.9rem; 
+    color: #fffdfd;
+
+    /* padding-left: 180px;  */
+    padding-left: 982px; 
+}
+
+/* PROJECTS PAGE */
+
+.projects-page {
+    height: 100vh;
+    background-color: #0D0208;
+}
+
+.move-projects {
+    margin-top: 80px;
+}
+
+/* BOOTSTRAP CARDS */
+
+/* .card-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #fffdfd; 
+} */
+
+.card-title,
+.card-text {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd;
+}
+
+/* .card-title {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd; 
+}
+
+.card-text {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd; 
+} */
+
+/* .btn {
+    font-family: 'Hind Vadodara', cursive;
+    color: #fffdfd;
+} */
+
+.card-text a {
+    color: #00FF41; 
+    text-decoration: none; 
+}
+
+.btn {
+    font-family: 'Hind Vadodara', cursive;
+    color: #0D0208;
+    background-color: #00FF41;
+}
+
+
+
+
+/* .card-body a:active {
+    background-color: #00ff41; 
+    color: #0d0208; 
+}
+
+.card-body a:hover {
+    background-color: #00ff41; 
+    color: #0d0208; 
+} */
+
+
+/* CONTACT PAGE */
+
+.contact-page {
+    height: 100vh;
+    background-color: #0D0208;
+}
+
+.move-contact {
+    margin-top: 110px;
+}
+
+#email {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FFFDFD;
+    text-decoration: none;
+}
+
+/* #phone {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #fffdfd;
+    text-decoration: none;
+} */
+
+/* GLITCH EFFECT ON CONTACT LINKS */ 
+/* https://www.youtube.com/watch?v=7Xyg8Ja7dyY */ 
+/* https://codepen.io/kevinpowell/pen/YzqerQm */ 
+
+/* glitch effect on "linkedin" link */ 
+
+#linkedin {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00FF41; 
+    text-decoration: none;
+
+    /* text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+    animation: linkedin 500ms infinite; */
+}
+
+/* #linkedin span {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* #linkedin span:first-child {
+    animation: glitch 650ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-0.025em, -0.0125em);
+    color: green;
+    opacity: 0.8;
+} */
+
+/* #linkedin span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+    transform: translate(0.0125em, 0.025em);
+    color: red;
+    opacity: 0.8;
+} */
+
+
+/* @keyframes linkedin {
+    0% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    14% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    15% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    49% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    50% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    99% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    100% {
+        text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+            -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+} */
+
+/* have this further down in the sheet; don't need duplicates? */
+
+/* 
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    ::before,
+    ::after {
+        animation-delay: -1ms !important;
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+    }
+} */
+
+
+/* glitch effect on "github" link */ 
+
+#github {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00FF41; 
+    text-decoration: none;
+
+    /* text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+    animation: github 500ms infinite; */
+}
+
+/* #github span {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* #github span:first-child {
+    animation: glitch 650ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-0.025em, -0.0125em);
+    color: green;
+    opacity: 0.8;
+}
+
+#github span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+    transform: translate(0.0125em, 0.025em);
+    color: red;
+    opacity: 0.8;
+} */
+
+/* @keyframes github {
+    0% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    14% {
+        text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+            -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    15% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    49% {
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+            0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    50% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    99% {
+        text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+            0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+
+    100% {
+        text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+            -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+            -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+} */
+
+/* @media (prefers-reduced-motion: reduce) {
+
+    *,
+    ::before,
+    ::after {
+        animation-delay: -1ms !important;
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+    }
+} */
+
+/* FOOTER */
