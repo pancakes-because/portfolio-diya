@@ -34,11 +34,11 @@ see "font-pics" folder for images of the pairs
     font-family: 'Hind Vadodara', sans-serif;
 }
 
-/* when resume link is active for download */ 
+/* when resume link is active */ 
 
-#resume {
+/* #resume {
     color: #00FF41;
-}
+} */
 
 /* when resume link is disabled */ 
 
